@@ -1,6 +1,6 @@
 <?php
 	set_time_limit(0);
-	$con=mysqli_connect("localhost","jayantbh_curl","cyberom1","jayantbh_curl");
+	$con=mysqli_connect("HOST_NAME","USER_NAME","PASSWORD","DB_NAME");
 	if (mysqli_connect_errno()) {
 		die("<script>alert(\"Database connection failed. Reload, try again later or inform webmaster.\");</script>");
 	}
